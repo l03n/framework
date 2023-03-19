@@ -1,0 +1,22 @@
+{
+    "name": "l03n/framework",
+    "description": "Learn Laravel Framework.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "L03n"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "vlucas/phpdotenv": "^5.4.1"
+    },
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "L03n\\": "src/"
+        }
+    }
+}
